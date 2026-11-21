@@ -1,0 +1,33 @@
+Compiling 2 files with Solc 0.8.24
+Solc 0.8.24 finished in 34.64s
+Compiler run successful with warnings:
+Warning (2018): Function state mutability can be restricted to view
+   --> test/Round23A.t.sol:383:5:
+    |
+383 |     function testK1617_ArbitraryTargetPassesCheck() public {
+    |     ^ (Relevant source part starts here and spans across multiple lines).
+
+
+Ran 19 tests for test/Round23A.t.sol:Round23ATest
+[PASS] testK1605_TransferStepDrainsUser() (gas: 339769)
+[PASS] testK1606_IncreaseAllowanceDrainsUser() (gas: 401142)
+[PASS] testK1607_UppercaseApproveBypassesCap() (gas: 390943)
+[PASS] testK1608_LegitApprovePasses() (gas: 379046)
+[PASS] testK1609_ApproveOverCapRejected() (gas: 155110)
+[PASS] testK1610_ApproveWrongTokenRejected() (gas: 124841)
+[PASS] testK1611_NonzeroValueRejected() (gas: 83902)
+[PASS] testK1612_WrongFromRejected() (gas: 85819)
+[PASS] testK1613_WrongRecipientRejected() (gas: 85334)
+[PASS] testK1614_FiveStepsRejected() (gas: 291882)
+[PASS] testK1615_WrongToChainRejected() (gas: 83139)
+[PASS] testK1616_WrongStepChainRejected() (gas: 86120)
+[PASS] testK1617_ArbitraryTargetPassesCheck() (gas: 39694)
+[PASS] testK1618_InvalidHexDataRejected() (gas: 64486)
+[PASS] testK1622_Kind5_BaseAgreement() (gas: 462371)
+[PASS] testK1623_Panel_BaseAgreement() (gas: 640171)
+[PASS] testK1624_TokenPriceTrigger_BaseAgreement() (gas: 516747)
+[PASS] testK1625_Getter2591_BaseAgreement() (gas: 14262)
+[PASS] testK1626_BaseEscrowClaimTo2Arg_Dormant() (gas: 1169970)
+Suite result: ok. 19 passed; 0 failed; 0 skipped; finished in 13.42ms (26.07ms CPU time)
+
+Ran 1 test suite in 14.08ms (13.42ms CPU time): 19 tests passed, 0 failed, 0 skipped (19 total tests)
